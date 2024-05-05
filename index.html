@@ -37,7 +37,9 @@
             audio.play();
 
             document.querySelector('.container__button').classList.add('d-none');
+            document.querySelector('.container__running-text').classList.remove('d-none');
             document.querySelector('.container__running-text').classList.add('run');
+            
 
             const container = document.querySelector('.container');
             container.classList.add('red-shadow');
