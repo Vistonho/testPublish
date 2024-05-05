@@ -120,6 +120,7 @@ p {
 
 .red-shadow {
     animation: red-shadow 3s infinite;
+    overflow: hidden;
 }
 
 @keyframes red-shadow {
