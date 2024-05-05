@@ -17,12 +17,31 @@ body {
     border-radius: 10px;
 }
 
+@media (max-width: 1300px) {
+    .container {
+        flex-direction: column;
+        width: 64vw;
+    }
+    .container__image-block {
+        width: 100% !important;
+    }
+    .container__text {
+        width: 100% !important;
+    }
+}
+
+.container__image-block {
+    position: relative;
+    width: 50%;
+}
+
 .container__img {
-    max-width: 50%;
+    width: 100%;
 }
 
 .container__text {
     animation: text-born 2s;
+    width: 50%;
 }
 
 .container__button {
@@ -131,6 +150,7 @@ p {
     padding: 5px;
     width: max-content;
     border-radius: 10px;
+    margin: 0;
 }
 
 .run {
